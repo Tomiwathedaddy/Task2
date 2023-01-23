@@ -1,0 +1,76 @@
+body{
+    margin-left: 13% ;
+    margin-right: 13%;
+}
+nav{
+    margin-bottom: 20px;
+    width: 100%;
+}
+main{
+    background-color: #edf2f8;
+}
+h2{
+    text-align: center;
+    color: rgb(27, 104, 126);
+}
+a{
+    color: rgb(27, 104, 126);
+    text-decoration: none;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+ul{
+    padding-left: 0px;
+    list-style: none;
+    padding-top: 27px;
+}
+i{
+    padding-left: 6px;
+}
+li{
+    display: inline;
+    padding-left: 5px;
+}
+li > a{
+    text-decoration: none;
+    color: rgb(27, 104, 126);
+    font-size: 1.2rem;
+    width: 100%;
+    display: inline;
+    padding: 20px 15px;
+    text-align: center;
+}
+a:hover{
+    color: rgba(19, 91, 41, 0.276);
+}
+.first-grid{
+    padding-top: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-img{
+    width: 100%;
+    display: block;
+}
+.card{
+    margin: 3%;
+}
+p, h3{
+    text-align: center;
+    margin: 10px;
+}
+.footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 1px solid;
+    color: #fff;
+    height: 60px;
+    background-color: rgb(27, 104, 126);
+}
